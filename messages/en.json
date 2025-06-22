@@ -1,0 +1,102 @@
+{
+  "HomePage": {
+    "title": "Dashboard",
+    "nav": {
+      "home": "Home",
+      "services": "Services",
+      "projects": "Projects",
+      "testimonials": "Testimonials",
+      "contact": "Contact",
+      "dashboard": "Dashboard",
+      "theme": "Theme"
+    },
+    "hero": {
+      "subtitle": "Custom Solutions",
+      "title": "Tailor-made <highlight>Dashboards</highlight> for Your Needs",
+      "description": "Building intuitive, high-performance, and scalable dashboard solutions. Whether it's data analysis, project management, or business intelligence.",
+      "cta": {
+        "primary": "View Dashboard",
+        "secondary": "Contact Me"
+      },
+      "scrollHint": "Discover My Skills"
+    },
+    "services": {
+      "title": "My <highlight>Expertise</highlight>",
+      "subtitle": "What I Can Do For You",
+      "items": [
+        {
+          "title": "Data Visualization",
+          "description": "Transform complex data into clear, actionable insights with beautiful and interactive visualizations."
+        },
+        {
+          "title": "Real-time Analytics",
+          "description": "Get live updates and real-time metrics to make informed decisions instantly."
+        },
+        {
+          "title": "Custom Development",
+          "description": "Tailor-made solutions designed specifically for your business needs and workflows."
+        },
+        {
+          "title": "Integration",
+          "description": "Seamless integration with your existing tools and platforms for a unified experience."
+        }
+      ]
+    },
+    "project": {
+      "title": "Featured <highlight>Projects</highlight>",
+      "subtitle": "Explore My Recent Projects",
+      "items": [
+        {
+          "title": "Business Analytics Dashboard",
+          "description": "Comprehensive analytics platform with real-time data processing.",
+          "category": "Data Analysis"
+        },
+        {
+          "title": "Project Management Tool",
+          "description": "Collaborative workspace with task tracking and team management.",
+          "category": "Productivity"
+        },
+        {
+          "title": "E-commerce Dashboard",
+          "description": "Sales and inventory management system with predictive analytics.",
+          "category": "E-commerce"
+        }
+      ]
+    },
+    "ctaSection": {
+      "title": "Ready to Transform Your Data into Actionable Insights?",
+      "description": "Let's discuss how I can help you build the perfect dashboard solution for your needs.",
+      "button": "Copy my email",
+      "copied": "Email copied!"
+    },
+    "testimonials": {
+      "title": "What Clients <highlight>Say</highlight>",
+      "items": [
+        {
+          "content": "The dashboard completely transformed how we analyze our business metrics.",
+          "author": "Sarah K.",
+          "role": "CEO, TechCorp"
+        },
+        {
+          "content": "Incredible attention to detail and delivered exactly what we needed.",
+          "author": "Michael T.",
+          "role": "Product Manager, DataFlow"
+        }
+      ]
+    }
+  },
+
+  "Footer": {
+    "aboutUs": "About Us",
+    "aboutDescription": "We are committed to providing the best solutions for our clients with an innovative and user-centered approach.",
+    "quickLinks": "Quick Links",
+    "home": "Home",
+    "about": "About",
+    "contact": "Contact",
+    "connect": "Connect With Us",
+    "followUs": "Follow us on social media",
+    "allRightsReserved": "All rights reserved.",
+    "privacyPolicy": "Privacy Policy",
+    "termsOfService": "Terms of Service"
+  }
+}

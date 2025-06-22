@@ -1,0 +1,148 @@
+{
+  "HomePage": {
+    "title": "Tableau de Bord",
+    "nav": {
+      "home": "Accueil",
+      "services": "Services",
+      "projects": "Projets",
+      "testimonials": "Témoignages",
+      "contact": "Contact",
+      "dashboard": "Tableau de bord",
+      "theme": "Thème"
+    },
+    "hero": {
+      "subtitle": "Solutions sur mesure",
+      "title": "Tableaux de bord <highlight>sur mesure</highlight> pour vos besoins",
+      "description": "Je conçois et développe des solutions de tableau de bord intuitives, performantes et évolutives. Analyse de données, gestion de projet ou business intelligence, je crée l'outil parfait pour vos besoins spécifiques.",
+      "cta": {
+        "primary": "Voir le tableau de bord",
+        "secondary": "Me contacter"
+      },
+      "scrollHint": "Découvrez mes compétences"
+    },
+    "services": {
+      "title": "Mon <highlight>Expertise</highlight>",
+      "subtitle": "Ce que je peux faire pour vous",
+      "items": [
+        {
+          "title": "Visualisation de Données",
+          "description": "Transformez des données complexes en informations claires et exploitables grâce à des visualisations interactives et élégantes."
+        },
+        {
+          "title": "Analyse en Temps Réel",
+          "description": "Bénéficiez de mises à jour en direct et de métriques en temps réel pour des décisions éclairées instantanées."
+        },
+        {
+          "title": "Développement Sur Mesure",
+          "description": "Des solutions personnalisées conçues spécifiquement pour vos besoins et processus métier."
+        },
+        {
+          "title": "Intégration",
+          "description": "Intégration transparente avec vos outils et plateformes existants pour une expérience unifiée."
+        }
+      ]
+    },
+    "project": {
+      "title": "Projets <highlight>Récents</highlight>",
+      "subtitle": "Découvrez mes derniers projets",
+      "items": [
+        {
+          "title": "Tableau de Bord d'Analyse Commerciale",
+          "description": "Plateforme d'analyse complète avec traitement des données en temps réel.",
+          "category": "Analyse de Données"
+        },
+        {
+          "title": "Outil de Gestion de Projet",
+          "description": "Espace de travail collaboratif avec suivi des tâches et gestion d'équipe.",
+          "category": "Productivité"
+        },
+        {
+          "title": "Tableau de Bord E-commerce",
+          "description": "Système de gestion des ventes et des stocks avec analyse prédictive.",
+          "category": "E-commerce"
+        }
+      ]
+    },
+    "ctaSection": {
+      "title": "Prêt à Transformer Vos Données en Informations Actionnables ?",
+      "description": "Discutons de la manière dont je peux vous aider à créer la solution de tableau de bord parfaite pour vos besoins.",
+      "button": "Copie mon email",
+      "copied": "Email copié !"
+    },
+    "testimonials": {
+      "title": "Ce que Disent <highlight>Mes Clients</highlight>",
+      "items": [
+        {
+          "content": "Le tableau de bord a complètement transformé notre façon d'analyser nos indicateurs commerciaux.",
+          "author": "Sarah D.",
+          "role": "PDG, TechCorp"
+        },
+        {
+          "content": "Une attention incroyable aux détails et un résultat parfaitement adapté à nos besoins.",
+          "author": "Michel T.",
+          "role": "Chef de Produit, DataFlow"
+        }
+      ]
+    }
+  },
+  "AboutPage": {
+    "title": "À propos de nous",
+    "subtitle": "Découvrez qui nous sommes",
+    "description": "Nous sommes une équipe passionnée dédiée à fournir les meilleures solutions pour nos clients.",
+    "features": {
+      "1": "Solution moderne et évolutive",
+      "2": "Équipe expérimentée à votre service",
+      "3": "Approche centrée sur l'utilisateur"
+    },
+    "imagePlaceholder": "Image à propos"
+  },
+
+  "ContactPage": {
+    "title": "Contactez-nous",
+    "description": "N'hésitez pas à nous contacter via le formulaire ci-dessous.",
+    "form": {
+      "name": "Nom",
+      "namePlaceholder": "Votre nom",
+      "email": "E-mail",
+      "emailPlaceholder": "Votre adresse e-mail",
+      "message": "Message",
+      "messagePlaceholder": "Tapez votre message...",
+      "submit": "Envoyer le message",
+      "requiredFields": "Les champs marqués d'un <span>*</span> sont obligatoires",
+      "success": {
+        "title": "Message envoyé !",
+        "message": "Merci pour votre message. Nous vous répondrons dès que possible.",
+        "button": "Envoyer un autre message"
+      },
+      "errors": {
+        "name": {
+          "required": "Le nom est requis.",
+          "min": "Le nom doit comporter au moins 2 caractères."
+        },
+        "email": {
+          "required": "L'e-mail est requis.",
+          "email": "Adresse e-mail invalide."
+        },
+        "message": {
+          "required": "Le message est requis.",
+          "min": "Le message doit comporter au moins 5 caractères."
+        }
+      }
+    }
+  },
+  "Footer": {
+    "aboutUs": "À propos",
+    "aboutDescription": "Nous nous engageons à fournir les meilleures solutions à nos clients avec une approche innovante et centrée sur l'utilisateur.",
+    "quickLinks": "Liens rapides",
+    "home": "Accueil",
+    "services": "Services",
+    "projects": "Projets",
+    "testimonials": "Témoignages",
+    "contact": "Contact",
+    "connect": "Restez connecté",
+    "followUs": "Suivez-nous sur les réseaux sociaux",
+    "allRightsReserved": "Tous droits réservés.",
+    "privacyPolicy": "Politique de confidentialité",
+    "termsOfService": "Conditions d'utilisation"
+  }
+}
