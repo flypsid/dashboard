@@ -12,13 +12,13 @@
     },
     "hero": {
       "subtitle": "Custom Solutions",
-      "title": "Tailor-made <highlight>Dashboards</highlight> for Your Needs",
-      "description": "Building intuitive, high-performance, and scalable dashboard solutions. Whether it's data analysis, project management, or business intelligence.",
+      "title": "High-performance Dashboards",
+      "description": "Track financial KPIs, monitor user behavior, manage sales funnels, or visualize blockchain data all in real time. Seamless integration, lightning-fast loading, and fully configurable modules. ",
       "cta": {
         "primary": "View Dashboard",
         "secondary": "Contact Me"
       },
-      "scrollHint": "Discover My Skills"
+      "scrollHint": "Learn more"
     },
     "services": {
       "title": "My <highlight>Expertise</highlight>",

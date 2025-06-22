@@ -12,13 +12,13 @@
     },
     "hero": {
       "subtitle": "Solutions sur mesure",
-      "title": "Tableaux de bord <highlight>sur mesure</highlight> pour vos besoins",
-      "description": "Je conçois et développe des solutions de tableau de bord intuitives, performantes et évolutives. Analyse de données, gestion de projet ou business intelligence, je crée l'outil parfait pour vos besoins spécifiques.",
+      "title": "Des tableaux de bord hautes performances",
+      "description": "Suivez vos indicateurs clés de performance financieres, surveillez le comportement des utilisateurs, gérez les tunnels de vente ou visualisez les données blockchain, le tout en temps réel. Intégration fluide, chargement ultra-rapide et modules entièrement configurables.",
       "cta": {
         "primary": "Voir le tableau de bord",
         "secondary": "Me contacter"
       },
-      "scrollHint": "Découvrez mes compétences"
+      "scrollHint": "En savoir plus"
     },
     "services": {
       "title": "Mon <highlight>Expertise</highlight>",

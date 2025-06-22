@@ -1,7 +1,6 @@
 "use client";
 
 import { motion } from "framer-motion";
-import { useTranslations } from "next-intl";
 import { Quote } from "lucide-react";
 
 // Définition du type pour les témoignages
@@ -12,8 +11,19 @@ interface TestimonialItem {
 }
 
 export default function TestimonialsSection() {
-  const t = useTranslations("HomePage.testimonials");
-  const testimonials = t.raw("items") as unknown as TestimonialItem[];
+  // Hardcoded testimonials as per requirements
+  const testimonials: TestimonialItem[] = [
+    {
+      content: "Thanks to this dashboard, our reporting went from chaos to clarity. We cut analysis time by 70%.",
+      author: "Nadia T.",
+      role: "CFO at Finlytic"
+    },
+    {
+      content: "The modular approach made it easy for our team to customize without touching the codebase.",
+      author: "Kofi A.",
+      role: "CTO at Web3Monitor"
+    }
+  ];
 
   // Fonction pour obtenir la première lettre du prénom
   const getFirstLetter = (name: string): string => {
@@ -21,10 +31,7 @@ export default function TestimonialsSection() {
   };
 
   // Récupération du titre avec mise en forme
-  const titleHtml = t.rich("title", {
-    highlight: (chunks) =>
-      `<span class="bg-gradient-to-r from-primary to-primary/80 bg-clip-text text-transparent">${chunks}</span>`,
-  }) as string;
+  const titleHtml = "Trusted by Industry Leaders";
 
   return (
     <section id="testimonials" className="py-20 bg-muted/30">
