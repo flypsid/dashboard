@@ -4,7 +4,7 @@ import { routing } from "@/i18n/routing";
 import type { Metadata } from "next";
 import { Geist, Geist_Mono } from "next/font/google";
 import "./globals.css";
-import { ThemeProvider } from "@/components/providers";
+import { ThemeProvider } from "@/components/providers/ThemeProvider";
 
 const geistSans = Geist({
   variable: "--font-geist-sans",
@@ -17,8 +17,8 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata: Metadata = {
-  title: "Dashboard",
-  description: "Dashboard - NextIntel ",
+  title: "Modern Dashboard",
+  description: "Modern Dashboard with Next.js, NextIntl and Tailwind CSS",
   icons: {
     icon: "/images/favicon.ico",
   },
@@ -39,7 +39,7 @@ export default async function LocaleLayout({
 
   return (
     <html lang={locale} suppressHydrationWarning>
-      <body className={`${geistSans.variable} ${geistMono.variable} font-sans antialiased`}>
+      <body className={`${geistSans.variable} ${geistMono.variable} font-sans`}>
         <ThemeProvider
           attribute="class"
           defaultTheme="system"

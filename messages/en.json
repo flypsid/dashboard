@@ -1,102 +1,40 @@
 {
   "HomePage": {
-    "title": "Dashboard",
-    "nav": {
-      "home": "Home",
-      "services": "Services",
-      "projects": "Projects",
-      "testimonials": "Testimonials",
-      "contact": "Contact",
-      "dashboard": "Dashboard",
-      "theme": "Theme"
-    },
-    "hero": {
-      "subtitle": "Custom Solutions",
-      "title": "High-performance Dashboards",
-      "description": "Track financial KPIs, monitor user behavior, manage sales funnels, or visualize blockchain data all in real time. Seamless integration, lightning-fast loading, and fully configurable modules. ",
-      "cta": {
-        "primary": "View Dashboard",
-        "secondary": "Contact Me"
-      },
-      "scrollHint": "Learn more"
-    },
-    "services": {
-      "title": "My <highlight>Expertise</highlight>",
-      "subtitle": "What I Can Do For You",
-      "items": [
-        {
-          "title": "Data Visualization",
-          "description": "Transform complex data into clear, actionable insights with beautiful and interactive visualizations."
-        },
-        {
-          "title": "Real-time Analytics",
-          "description": "Get live updates and real-time metrics to make informed decisions instantly."
-        },
-        {
-          "title": "Custom Development",
-          "description": "Tailor-made solutions designed specifically for your business needs and workflows."
-        },
-        {
-          "title": "Integration",
-          "description": "Seamless integration with your existing tools and platforms for a unified experience."
-        }
-      ]
-    },
-    "project": {
-      "title": "Featured <highlight>Projects</highlight>",
-      "subtitle": "Explore My Recent Projects",
-      "items": [
-        {
-          "title": "Business Analytics Dashboard",
-          "description": "Comprehensive analytics platform with real-time data processing.",
-          "category": "Data Analysis"
-        },
-        {
-          "title": "Project Management Tool",
-          "description": "Collaborative workspace with task tracking and team management.",
-          "category": "Productivity"
-        },
-        {
-          "title": "E-commerce Dashboard",
-          "description": "Sales and inventory management system with predictive analytics.",
-          "category": "E-commerce"
-        }
-      ]
-    },
-    "ctaSection": {
-      "title": "Ready to Transform Your Data into Actionable Insights?",
-      "description": "Let's discuss how I can help you build the perfect dashboard solution for your needs.",
-      "button": "Copy my email",
-      "copied": "Email copied!"
-    },
-    "testimonials": {
-      "title": "What Clients <highlight>Say</highlight>",
-      "items": [
-        {
-          "content": "The dashboard completely transformed how we analyze our business metrics.",
-          "author": "Sarah K.",
-          "role": "CEO, TechCorp"
-        },
-        {
-          "content": "Incredible attention to detail and delivered exactly what we needed.",
-          "author": "Michael T.",
-          "role": "Product Manager, DataFlow"
-        }
-      ]
-    }
-  },
-
-  "Footer": {
-    "aboutUs": "About Us",
-    "aboutDescription": "We are committed to providing the best solutions for our clients with an innovative and user-centered approach.",
-    "quickLinks": "Quick Links",
-    "home": "Home",
+    "title": "Hello world!",
     "about": "About",
     "contact": "Contact",
-    "connect": "Connect With Us",
-    "followUs": "Follow us on social media",
-    "allRightsReserved": "All rights reserved.",
-    "privacyPolicy": "Privacy Policy",
-    "termsOfService": "Terms of Service"
+    "home": "Home",
+    "heroTitle": "Next.js Multilang Starter",
+    "heroDescription": "A modern, multilingual Next.js Dashboard with internationalization.",
+    "dashboardButton": "Dashboard",
+    "contactButton": "Contact Us"
+  },
+
+  "ContactPage": {
+    "title": "Contact us",
+    "description": "Feel free to reach out using the form below.",
+    "form": {
+      "name": "Name",
+      "namePlaceholder": "Your name",
+      "email": "Email",
+      "emailPlaceholder": "Your email address",
+      "message": "Message",
+      "messagePlaceholder": "Type your message...",
+      "submit": "Send message",
+      "errors": {
+        "name": {
+          "required": "Name is required.",
+          "min": "Name must be at least 2 characters."
+        },
+        "email": {
+          "required": "Email is required.",
+          "email": "Invalid email address."
+        },
+        "message": {
+          "required": "Message is required.",
+          "min": "Message must be at least 5 characters."
+        }
+      }
+    }
   }
 }

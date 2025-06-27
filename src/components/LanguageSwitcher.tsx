@@ -5,8 +5,8 @@ import React from "react";
 import { FaGlobe } from "react-icons/fa";
 
 const languages = [
-  { code: "en", label: "English" },
-  { code: "fr", label: "Français" },
+  { code: "en", label: "EN" },
+  { code: "fr", label: "FR" },
 ];
 
 export default function LanguageSwitcher() {
@@ -23,11 +23,12 @@ export default function LanguageSwitcher() {
 
   return (
     <div className="flex items-center gap-2 ml-4">
+      <FaGlobe className="w-5 h-5 text-muted-foreground" aria-hidden="true" />
       <div className="relative">
         <select
           value={locale}
           onChange={handleChange}
-          className="pl-3 pr-8 py-2 rounded border border-gray-300 bg-background text-foreground focus:outline-none focus:ring-2 focus:ring-primary/70 transition appearance-none"
+          className="pl-2 pr-6 py-2 text-sm rounded border border-gray-600 bg-background text-foreground focus:outline-none focus:ring-1 focus:ring-primary/50 transition appearance-none"
           aria-label="Select language"
         >
           {languages.map((lang) => (
@@ -52,7 +53,6 @@ export default function LanguageSwitcher() {
           </svg>
         </span>
       </div>
-      <FaGlobe className="w-5 h-5 text-muted-foreground" aria-hidden="true" />
     </div>
   );
 }
